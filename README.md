@@ -1,2 +1,2 @@
 # StrangerThingPage
-Pagina web diseñada basandome en la serie de Netflix Stranger Things por Alonso Bermejo => CliPeStar
+Pagina web diseñada en base la serie de Netflix Stranger Things por Alonso Bermejo => CliPeStar
