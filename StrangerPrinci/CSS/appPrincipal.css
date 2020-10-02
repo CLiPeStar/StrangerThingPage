@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Stranger;
+  background: #000;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; }
+
+@font-face {
+  font-family: Stranger;
+  src: url(../fonts/Stranger.otf); }
+.banner {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: url(../IMG/grandeStranger.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: bottom; }
+
+.banner .clouds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.banner .clouds img {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  opacity: 20%;
+  filter: blur(2px);
+  animation: animate calc(8s * var(--i)) linear infinite; }
+
+.controlSonido {
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+  cursor: pointer;
+  z-index: 99;
+  font-size: 2rem; }
+
+.mainWrapperMovil {
+  width: auto;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+
+@media (min-width: 700px) {
+  .mainWrapperMovil {
+    font-size: 1.1em;
+    flex-direction: row;
+    align-items: flex-start; }
+
+  .mainWrapper {
+    font-size: 1.5em; }
+
+  .myIndexCell {
+    width: 30%; }
+
+  .footerWrapperMovil {
+    position: relative;
+    font-size: 2em;
+    height: 1em;
+    margin-top: 4em;
+    bottom: 0.2em; } }
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex; }
+
+.banner ul li {
+  list-style: none;
+  margin: 0 20px;
+  transition: 0.5s; }
+
+ul li {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  padding: 2px;
+  font-size: 18px;
+  font-family: Stranger;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.5s; }
+
+ul:hover li {
+  transform: scale(1.5);
+  opacity: 0.2;
+  filter: blur(5px); }
+
+ul li:hover {
+  transform: scale(2);
+  opacity: 1;
+  filter: blur(0); }
+
+@keyframes animate {
+  0% {
+    transform: translateX(-100%); }
+  100% {
+    transform: translateX(100%); } }
+
+/*# sourceMappingURL=appPrincipal.css.map */

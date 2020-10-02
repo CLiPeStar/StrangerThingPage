@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Stranger;
+  src: url(../../StrangerPrinci/fonts/Stranger.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Stranger;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+body {
+  background: linear-gradient(45deg, #8500ff, #5acaff);
+  height: 100vh;
+}
+// no es ninguna clase es la mas clara explicacion de como poner una imagen correctamente de fondo de panatalla en HTML
+.prueba {
+  /* Ubicación de la imagen */
+
+  background-image: url(../IMG/fondo.jpeg);
+
+  /* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+  background-position: center center;
+
+  /* Para que la imagen de fondo no se repita */
+
+  background-repeat: no-repeat;
+
+  /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+  background-attachment: fixed;
+
+  /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+  background-size: cover;
+
+  /* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+
+  background-color: black;
+}

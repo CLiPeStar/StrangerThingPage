@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../IMG/p404.png);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  background-color: #151729;
+  position: absolute;
+  top: 10vh;
+  bottom: 10vh;
+  left: 10vh;
+  right: 10vh;
+  border-radius: 10px;
+  transition: 2s;
+  background-position: center center;
+}
+.container .content {
+  max-width: 600px;
+  text-align: center;
+}
+.container .content h2 {
+  font-size: 13rem;
+  color: #fff;
+  line-height: 1em;
+}
+.container .content h4 {
+  position: relative;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #111;
+  background: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+}
+.container .content p {
+  color: #fff;
+  font-size: 1.2em;
+}
+.container .content nav {
+  position: relative;
+  display: inline-block;
+  padding: 10px 25px;
+  background: #f8002a;
+  border-radius: 25px;
+  color: #fff;
+  margin-top: 25px;
+  border-bottom: 4px solid #a0021c;
+  border-right: 4px solid #a0021c;
+  cursor: pointer;
+  height: 2.7rem;
+  width: 7rem;
+}
